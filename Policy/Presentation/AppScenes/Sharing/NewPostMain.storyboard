@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="F76-Uq-YOb">
+            <objects>
+                <viewController id="Ey8-EQ-sKQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9gw-1A-QyK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirmation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuI-k0-KUm">
+                                <rect key="frame" x="20" y="66" width="374" height="59"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="c6n-S6-0tW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="WuI-k0-KUm" firstAttribute="top" secondItem="c6n-S6-0tW" secondAttribute="top" constant="22" id="4Ax-lU-6xX"/>
+                            <constraint firstItem="WuI-k0-KUm" firstAttribute="leading" secondItem="9gw-1A-QyK" secondAttribute="leadingMargin" id="Xgb-r8-SNn"/>
+                            <constraint firstItem="WuI-k0-KUm" firstAttribute="trailing" secondItem="9gw-1A-QyK" secondAttribute="trailingMargin" id="eOv-IK-uTA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ixz-4f-V3t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9020" y="149"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Lp-00-8Ua">
+            <objects>
+                <viewController id="elf-Hc-NUP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VOP-MP-3AM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Editor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7M2-rJ-EXk">
+                                <rect key="frame" x="20" y="70" width="374" height="59"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OMV-gl-bgT"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7M2-rJ-EXk" firstAttribute="leading" secondItem="VOP-MP-3AM" secondAttribute="leadingMargin" id="3pf-Ie-U3H"/>
+                            <constraint firstItem="7M2-rJ-EXk" firstAttribute="trailing" secondItem="VOP-MP-3AM" secondAttribute="trailingMargin" id="Vx0-Yx-q93"/>
+                            <constraint firstItem="7M2-rJ-EXk" firstAttribute="top" secondItem="OMV-gl-bgT" secondAttribute="top" constant="26" id="hO7-TF-fFX"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VAP-pK-WdE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7377" y="149"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="f39-xY-5z0">
+            <objects>
+                <viewController id="KvT-dL-fpS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tje-vx-Nst">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caption Editor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IgZ-SW-pN0">
+                                <rect key="frame" x="20" y="63" width="374" height="59"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9el-ao-HeA"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IgZ-SW-pN0" firstAttribute="leading" secondItem="Tje-vx-Nst" secondAttribute="leadingMargin" id="IR1-7n-JJ2"/>
+                            <constraint firstItem="IgZ-SW-pN0" firstAttribute="trailing" secondItem="Tje-vx-Nst" secondAttribute="trailingMargin" id="qXd-pW-9h9"/>
+                            <constraint firstItem="IgZ-SW-pN0" firstAttribute="top" secondItem="9el-ao-HeA" secondAttribute="top" constant="19" id="wFY-vd-vcY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sdr-Ag-jmG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8186" y="149"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DPR-Ka-SYC">
+            <objects>
+                <viewController id="P7K-L3-bsA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ayi-rb-QER">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UtC-HM-j9M">
+                                <rect key="frame" x="20" y="66" width="374" height="59"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FBb-Yh-p2D"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UtC-HM-j9M" firstAttribute="leading" secondItem="Ayi-rb-QER" secondAttribute="leadingMargin" id="8kJ-9z-P7o"/>
+                            <constraint firstItem="UtC-HM-j9M" firstAttribute="top" secondItem="FBb-Yh-p2D" secondAttribute="top" constant="22" id="crz-dx-HFp"/>
+                            <constraint firstItem="UtC-HM-j9M" firstAttribute="trailing" secondItem="Ayi-rb-QER" secondAttribute="trailingMargin" id="hbM-mM-DSJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uNU-rx-c5x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6572" y="149"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
